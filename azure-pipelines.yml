@@ -17,7 +17,7 @@ steps:
     displayName: 'Install dependencies'
 
   - script: |
-      pytest
+      python -m pytest
     displayName: 'Run unit tests'
 
   - task: Docker@2
