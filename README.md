@@ -45,3 +45,7 @@ docker build -t lab1-cicd .
 ## Run Docker container
 
 docker run -d -p 8000:8000 --name lab1-container lab1-cicd
+
+## CI/CD
+
+This project uses Azure DevOps for continuous integration.
